@@ -1,0 +1,16 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.env
+backend/chroma_store/
+backend/intent_model.pkl
+backend/uvicorn.log
+
+# Node
+frontend/node_modules/
+
+# Misc
+.DS_Store
+*.log
