@@ -1,0 +1,35 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+
+# Document parsing
+PyPDF2>=3.0.1
+python-docx>=1.1.2
+
+# Embeddings
+sentence-transformers>=3.1.0
+openai>=1.51.0
+
+# Vector store
+chromadb>=0.5.18
+
+# LLM
+groq>=0.11.0
+
+# NLP / Intent classifier
+scikit-learn>=1.5.0
+transformers>=4.45.0
+torch>=2.4.0
+
+# Database
+motor>=3.6.0
+pymongo>=4.10.0
+
+# Auth
+authlib>=1.3.2
+httpx>=0.27.0
+itsdangerous>=2.2.0
+
+# Utilities
+pydantic-settings>=2.5.0

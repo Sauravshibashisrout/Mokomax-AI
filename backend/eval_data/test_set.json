@@ -1,0 +1,17 @@
+[
+  {
+    "query": "What is retrieval-augmented generation?",
+    "relevant_chunks": ["Retrieval-Augmented Generation (RAG) combines a retrieval system with a language model"],
+    "reference_answer": "RAG is a technique that retrieves relevant documents and uses them to ground LLM responses."
+  },
+  {
+    "query": "How does chunking affect retrieval quality?",
+    "relevant_chunks": ["Chunking strategy determines the granularity of indexed text segments"],
+    "reference_answer": "Chunking affects retrieval by controlling the size and overlap of text segments stored in the vector database."
+  },
+  {
+    "query": "What embedding models are supported?",
+    "relevant_chunks": ["Supported embedding models include all-MiniLM-L6-v2, BGE-large, and OpenAI text-embedding-3-small"],
+    "reference_answer": "MokoMax supports all-MiniLM-L6-v2, BAAI/bge-large-en-v1.5, and OpenAI text-embedding-3-small."
+  }
+]
